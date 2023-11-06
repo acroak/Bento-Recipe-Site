@@ -1,0 +1,64 @@
+a {
+  text-decoration: none; /* Remove underlines */
+  color: inherit; /* Inherit the color from the parent element (usually the default text color) */
+  cursor: pointer; /* Set the cursor to the default pointer (usually an arrow) */
+}
+
+
+.recipeCard {
+    width: 18rem;
+    margin: 1rem;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-img {
+    margin-bottom: 10px;
+}
+
+.next-prev-ctn {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    max-width: 15rem;
+    align-items: center;
+}
+
+.next-prev-btn {
+    max-width: 5rem;
+}
+
+.heart{
+    width: 50px;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+}
+
+/*
+.heart:hover{
+    stroke: red;
+    fill: red;
+}
+*/
+
+.empty-heart{
+    stroke: black;
+    fill: none;
+}
+
+.empty-heart:hover{
+    stroke: red;
+    fill: red;
+}
+
+.filled-heart{
+    stroke: red;
+    fill: red;
+
+}
+

@@ -1,0 +1,42 @@
+footer {
+    font-family:'Handlee', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    padding: 1em;
+    width: 100%;
+    padding: 1em 3em 0 3em;
+}
+
+.footer-headers {
+    color: #d95964;
+}
+
+.footer-logo a {
+    text-decoration: none;
+    color: #000;
+    font-weight:800;
+}
+
+.footer-logo img {
+    width: 4em;
+    height: 4em;
+}
+
+.footer-link {
+    color: grey;
+}
+.footer-link:hover {
+    text-decoration: underline;
+    text-decoration-color: #F27405;
+    color: #000;
+}
+
+.disabled{
+    color: currentColor;
+    cursor: not-allowed;
+    text-decoration: none;
+}
+
+.social-icons {
+    width: 2rem;
+    height: 2rem;
+}

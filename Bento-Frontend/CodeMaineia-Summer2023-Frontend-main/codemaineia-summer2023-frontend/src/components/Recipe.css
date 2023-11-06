@@ -1,0 +1,91 @@
+div.commentsText{
+    width:100%
+}
+
+.box{
+    border:none;
+}
+
+.card-header{
+    background:#F27405;
+    color: white;
+    
+}
+.card{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.list-group-item {
+  background-color: #f2f2f2;
+  max-width: 100%; 
+  max-height: 100px; 
+  overflow-y: hidden; 
+}
+
+
+div.col .center{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+.bigPicture{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+p.comment {
+    white-space: pre-line;
+}
+
+.form-check-input{
+    margin-right: 5px;
+}
+
+.editButton{
+    position: absolute;
+    bottom: 5px;
+    left: 100px;
+}
+
+.deleteButton{
+    position: absolute;
+    bottom: 5px;
+    right: 100px;
+}
+
+.commentCard{
+    padding-bottom:30px;
+}
+.commentCard .comment{
+    text-align:left;
+    margin-left: 20px;
+    font-weight: 600;
+    font-family: 'Handlee','Lucida Sans', Geneva, Verdana, sans-serif;
+}
+.commentCard h5{
+    margin-top: 15px;
+}
+.commentCard .commentName{
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size:large;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Handlee','Lucida Sans', Geneva, Verdana, sans-serif;
+}
+.commentCard .commentTime{
+    font-size: medium;
+    text-align: left;
+}
+
+p span{
+    font-size: small;
+    color: #F27405;
+
+}

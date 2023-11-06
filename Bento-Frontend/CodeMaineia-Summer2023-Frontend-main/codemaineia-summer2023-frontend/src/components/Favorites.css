@@ -1,0 +1,73 @@
+a {
+  text-decoration: none; /* Remove underlines */
+  color: inherit; /* Inherit the color from the parent element (usually the default text color) */
+  cursor: pointer; /* Set the cursor to the default pointer (usually an arrow) */
+}
+
+.title{
+    border-radius: 0.375rem;
+    background-color: #F27405;
+    color: white;
+}
+
+.favCard {
+    margin: 1rem;
+    width: auto;
+}
+
+.favDesc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50%;
+    margin-bottom: 50%;
+    margin-right: 10%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-img {
+    margin-bottom: 10px;
+}
+
+.next-prev-ctn {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    max-width: 15rem;
+    align-items: center;
+}
+
+.next-prev-btn {
+    max-width: 5rem;
+}
+
+.fav-heart{
+    width: 50px;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+}
+
+
+.empty-heart{
+    stroke: black;
+    fill: none;
+}
+
+.empty-heart:hover{
+    stroke: red;
+    fill: red;
+}
+
+.filled-heart{
+    stroke: red;
+    fill: red;
+
+}
+
+

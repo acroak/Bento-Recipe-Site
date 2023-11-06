@@ -1,0 +1,47 @@
+.hero-row {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), url("../../public/images/susann-schuster-unsplash.jpg");
+    width: 100%;
+    min-height: 20rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.hero-copy {
+    color: #ffffff;
+    font-family:'Handlee','Lucida Sans', Geneva, Verdana, sans-serif;
+    letter-spacing: 0.5em;
+    font-weight: 800;
+   
+}
+
+.hero-card {
+    border: none;
+    background-color: transparent;
+}
+
+.card-img{
+    filter: brightness(50%);
+}
+
+
+.search-btn-img {
+    width: 1em;
+}
+
+.category-card > img{
+    width: 9em;
+    height: 9em;
+    margin: 0 auto;
+}
+
+.category-card-link {
+    color: #000;
+    text-decoration: none;
+}
+
+.category-card-link:hover {
+    text-decoration: underline;
+    text-decoration-color: #F27405;
+}

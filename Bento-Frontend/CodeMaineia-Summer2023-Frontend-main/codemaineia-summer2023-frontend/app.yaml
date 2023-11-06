@@ -1,0 +1,24 @@
+runtime: nodejs18
+
+handlers:
+  #Serve allstatic files with url ending with a file extension
+  - url: /(.*\..+)$
+    static_files: build/\1
+    upload: build/(.*\..+)$
+    secure: always
+#Catch all handler to index.html
+  - url: /.*
+    static_files: build/index.html
+    upload: build/index.html
+    secure: always
+
+
+env_variables:
+  REACT_APP_BASE_URL: "https://codemaineia-summer2023-fe.uc.r.appspot.com"
+  REACT_APP_API_BASE_URL: "https://codemaineia-summer2023-backend.uc.r.appspot.com"
+
+
+
+
+
+
